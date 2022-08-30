@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon",
     "test": "jest",
-    "start": "cd /home/application/app && pm2-runtime start /home/application/app/ecosystem.config.js –env production"
+    "start": "cd /home/application/app && pm2-runtime start /home/application/app/ecosystem.config.js –env production",
+    "build": "cd /home/application/app"
   },
   "dependencies": {
     "cors": "^2.8.5",
